@@ -6,6 +6,7 @@
     <title>Webseva cPanel Reseller Hosting</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="src/cpanel.css">
+    <link rel="stylesheet" href="src/global.css">
 </head>
 <body>
 <header>
@@ -83,6 +84,7 @@
             </ul>
         </nav>
     </div>
+    <div id="mobile-menu-overlay" class="mobile-menu-overlay"></div>
 </header>
 
     <div class="bg-white bg-gradient-to-r from-orange-20 via-orange-40 to-orange-30">
@@ -146,7 +148,7 @@
                     </div>
 
                     <div class="mt-10 flex flex-col items-start gap-3 sm:flex-row sm:items-center sm:gap-6 justify-start">
-<a href="#"
+<a href="#plans"
     class="fade-button inline-flex items-center justify-center gap-2 rounded-md bg-gradient-to-r from-violet-900 via-violet-800 to-violet-700 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:from-violet-800 hover:via-violet-700 hover:to-violet-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-violet-500">
                             <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
                                 aria-hidden="true">
@@ -261,317 +263,171 @@
         </div>
     </div>
 </div>
-
-<section class="mx-auto px-6 pt-12 pb-2 text-center sm:pt-24 sm:pb-4 lg:pt-18 lg:pb-6">
+<section class="mx-auto px-6 pt-12 pb-2 text-center sm:pt-24 sm:pb-4 lg:pt-18 lg:pb-6" id="plans">
 
 
             <span
                 class="mb-6 inline-block rounded-full border border-purple-500 px-2.5 py-0.5 text-sm whitespace-nowrap text-purple-700">
-                cPanel / WHM Reseller Hosting
+                cPanel Reseller Hosting
             </span>
             <h1 class="text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">
-                Choose Your cPanel Plan
+                Choose Your cPanel Reseller Hosting Plan
             </h1>
             <p class="mx-auto mt-5 max-w-3xl text-base leading-8 text-gray-600 sm:text-lg">
-                White-label cPanel/WHM reseller hosting on NVMe SSD infrastructure. Create unlimited hosting
-                accounts, brand it as your own, and manage everything from one WHM dashboard.
+                White-label cPanel reseller hosting on NVMe SSD infrastructure. Create unlimited hosting
+                accounts, brand it as your own, and manage everything from one cPanel dashboard.
             </p>
-            <div class="mx-auto max-w-7xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
-                <div
-                    class="grid grid-cols-1 justify-items-center gap-4 sm:grid-cols-2 sm:items-stretch md:grid-cols-3 md:gap-8">
-                    <div class="w-full max-w-sm divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-xs">
-                        <div class="p-6 sm:px-8">
-                            <h2 class="text-lg font-medium text-gray-900">
-                                Starter
-                                <span class="sr-only">Plan</span>
-                            </h2>
+<div id="panel-cpanel plans" class="mx-auto max-w-7xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
 
-                            <p class="mt-2 text-pretty text-gray-700">
-                                For freelancers and small agencies getting started with reseller hosting.
-                            </p>
+    <div class="pricing-grid grid grid-cols-1 items-stretch gap-4 sm:grid-cols-2 lg:grid-cols-4 lg:gap-8">
 
-                            <p class="mt-2 sm:mt-4">
-                                <strong class="text-3xl font-bold text-gray-900 sm:text-4xl"> Rs. 999 </strong>
+        <!-- Starter Plan -->
+        <div class="pricing-card w-full divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-xs">
+            <div class="pricing-card__body p-6 sm:px-8">
+                <h2 class="text-lg font-medium text-gray-900">Reseller STARTER</h2>
+                <p class="mt-2 text-pretty text-gray-700">Perfect for starting your hosting business.</p>
 
-                                <span class="text-sm font-medium text-gray-700">/month</span>
-                            </p>
+                <p class="mt-2 sm:mt-4">
+                    <strong class="text-3xl font-bold text-gray-900 sm:text-4xl">$3.99</strong>
+                    <span class="text-sm font-medium text-gray-700">/mo</span>
+                </p>
 
-                            <a class="fade-button mt-4 block rounded-3xl border border-violet-600 bg-white-600 px-12 py-3 text-center text-sm font-medium text-violet-600 hover:bg-transparent hover:text-violet-600 sm:mt-6"
-                                href="#">
-                                Get Started
-                            </a>
-                        </div>
+                <p class="mt-2 text-sm text-gray-500">Billed for 12 month term.</p>
 
-                        <div class="p-6 sm:px-8">
-                            <p class="text-lg font-medium text-gray-900 sm:text-xl">What's included:</p>
-
-                            <ul class="mt-2 space-y-2 sm:mt-4">
-                                <li class="flex items-center gap-1">
-                                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                                        class="size-5 text-green-600">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M4.5 12.75l6 6 9-13.5" />
-                                    </svg>
-
-                                    <span class="text-gray-700"> 25 cPanel accounts </span>
-                                </li>
-
-                                <li class="flex items-center gap-1">
-                                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                                        class="size-5 text-green-600">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M4.5 12.75l6 6 9-13.5" />
-                                    </svg>
-
-                                    <span class="text-gray-700"> 50 GB NVMe SSD storage </span>
-                                </li>
-
-                                <li class="flex items-center gap-1">
-                                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                                        class="size-5 text-green-600">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M4.5 12.75l6 6 9-13.5" />
-                                    </svg>
-
-                                    <span class="text-gray-700"> Free WHM license </span>
-                                </li>
-
-                                <li class="flex items-center gap-1">
-                                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                                        class="size-5 text-green-600">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M4.5 12.75l6 6 9-13.5" />
-                                    </svg>
-
-                                    <span class="text-gray-700"> Free SSL on all accounts </span>
-                                </li>
-
-                                <li class="flex items-center gap-1">
-                                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                                        class="size-5 text-red-700">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                                    </svg>
-
-                                    <span class="text-gray-700"> White-label nameservers </span>
-                                </li>
-
-                                <li class="flex items-center gap-1">
-                                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                                        class="size-5 text-red-700">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                                    </svg>
-
-                                    <span class="text-gray-700"> Free account migration </span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div
-                        class="relative w-full max-w-sm divide-y divide-violet-200 rounded-2xl border-2 border-violet-500 bg-white shadow-sm">
-                        <span
-                            class="absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2 rounded-full border border-violet-200 bg-violet-600 px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-white shadow-sm">
-                            Featured
-                        </span>
-                        <div class="p-6 sm:px-8">
-                            <h2 class="text-lg font-medium text-gray-900">
-                                Pro
-                                <span class="sr-only">Plan</span>
-                            </h2>
-
-                            <p class="mt-2 text-pretty text-gray-700">
-                                For growing agencies that need more accounts and full white-label branding.
-                            </p>
-
-                            <p class="mt-2 sm:mt-4">
-                                <strong class="text-3xl font-bold text-gray-900 sm:text-4xl"> Rs. 1,999 </strong>
-
-                                <span class="text-sm font-medium text-gray-700">/month</span>
-                            </p>
-
-                            <a class="fade-button mt-4 block rounded-3xl border border-violet-600 bg-violet-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-violet-600 sm:mt-6"
-                                href="#">
-                                Get Started
-                            </a>
-                        </div>
-
-                        <div class="p-6 sm:px-8">
-                            <p class="text-lg font-medium text-gray-900 sm:text-xl">What's included:</p>
-
-                            <ul class="mt-2 space-y-2 sm:mt-4">
-                                <li class="flex items-center gap-1">
-                                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                                        class="size-5 text-green-600">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M4.5 12.75l6 6 9-13.5" />
-                                    </svg>
-
-                                    <span class="text-gray-700"> 75 cPanel accounts </span>
-                                </li>
-
-                                <li class="flex items-center gap-1">
-                                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                                        class="size-5 text-green-600">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M4.5 12.75l6 6 9-13.5" />
-                                    </svg>
-
-                                    <span class="text-gray-700"> 150 GB NVMe SSD storage </span>
-                                </li>
-
-                                <li class="flex items-center gap-1">
-                                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                                        class="size-5 text-green-600">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M4.5 12.75l6 6 9-13.5" />
-                                    </svg>
-
-                                    <span class="text-gray-700"> Free WHM license </span>
-                                </li>
-
-                                <li class="flex items-center gap-1">
-                                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                                        class="size-5 text-green-600">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M4.5 12.75l6 6 9-13.5" />
-                                    </svg>
-
-                                    <span class="text-gray-700"> Full white-label branding </span>
-                                </li>
-
-                                <li class="flex items-center gap-1">
-                                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                                        class="size-5 text-green-600">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M4.5 12.75l6 6 9-13.5" />
-                                    </svg>
-
-                                    <span class="text-gray-700"> Free account migration </span>
-                                </li>
-
-                                <li class="flex items-center gap-1">
-                                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                                        class="size-5 text-red-700">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                                    </svg>
-
-                                    <span class="text-gray-700"> Dedicated IP address </span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="w-full max-w-sm divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-xs">
-                        <div class="p-6 sm:px-8">
-                            <h2 class="text-lg font-medium text-gray-900">
-                                Agency
-                                <span class="sr-only">Plan</span>
-                            </h2>
-
-                            <p class="mt-2 text-pretty text-gray-700">
-                                For established hosting businesses that need unlimited accounts and priority support.
-                            </p>
-
-                            <p class="mt-2 sm:mt-4">
-                                <strong class="text-3xl font-bold text-gray-900 sm:text-4xl"> Rs. 4,999 </strong>
-
-                                <span class="text-sm font-medium text-gray-700">/month</span>
-                            </p>
-
-                            <a class="fade-button mt-4 block rounded-3xl border border-violet-600 bg-white-600 px-12 py-3 text-center text-sm font-medium text-violet-600 hover:bg-transparent hover:text-violet-600 sm:mt-6"
-                                href="#">
-                                Get Started
-                            </a>
-                        </div>
-
-                        <div class="p-6 sm:px-8">
-                            <p class="text-lg font-medium text-gray-900 sm:text-xl">What's included:</p>
-
-                            <ul class="mt-2 space-y-2 sm:mt-4">
-                                <li class="flex items-center gap-1">
-                                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                                        class="size-5 text-indigo-700">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M4.5 12.75l6 6 9-13.5" />
-                                    </svg>
-
-                                    <span class="text-gray-700"> Unlimited cPanel accounts </span>
-                                </li>
-
-                                <li class="flex items-center gap-1">
-                                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                                        class="size-5 text-indigo-700">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M4.5 12.75l6 6 9-13.5" />
-                                    </svg>
-
-                                    <span class="text-gray-700"> 500 GB NVMe SSD storage </span>
-                                </li>
-
-                                <li class="flex items-center gap-1">
-                                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                                        class="size-5 text-indigo-700">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M4.5 12.75l6 6 9-13.5" />
-                                    </svg>
-
-                                    <span class="text-gray-700"> Free WHM license </span>
-                                </li>
-
-                                <li class="flex items-center gap-1">
-                                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                                        class="size-5 text-indigo-700">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M4.5 12.75l6 6 9-13.5" />
-                                    </svg>
-
-                                    <span class="text-gray-700"> Full white-label branding </span>
-                                </li>
-
-                                <li class="flex items-center gap-1">
-                                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                                        class="size-5 text-indigo-700">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M4.5 12.75l6 6 9-13.5" />
-                                    </svg>
-
-                                    <span class="text-gray-700"> Priority 24/7 support </span>
-                                </li>
-
-                                <li class="flex items-center gap-1">
-                                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                                        class="size-5 text-indigo-700">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M4.5 12.75l6 6 9-13.5" />
-                                    </svg>
-
-                                    <span class="text-gray-700"> Dedicated IP address </span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                <a href="#"
+                    class="fade-button pricing-card__cta mt-4 block rounded-3xl border border-violet-600 bg-white px-12 py-3 text-center text-sm font-medium text-violet-600 hover:bg-violet-600 hover:text-white sm:mt-6">
+                    Choose plan
+                </a>
             </div>
 
-        </section>
+            <div class="pricing-card__details p-6 sm:px-8">
+                <p class="text-lg font-medium text-gray-900 sm:text-xl">What's included:</p>
+
+                <ul class="mt-2 space-y-2 sm:mt-4">
+                    <li class="flex items-center gap-1"><span class="text-green-600">✓</span><span class="text-gray-700">10 cPanel Accounts</span></li>
+                    <li class="flex items-center gap-1"><span class="text-green-600">✓</span><span class="text-gray-700">100 GB NVMe SSD</span></li>
+                    <li class="flex items-center gap-1"><span class="text-green-600">✓</span><span class="text-gray-700">Unlimited Bandwidth</span></li>
+                    <li class="flex items-center gap-1"><span class="text-green-600">✓</span><span class="text-gray-700">2 GB DDR5 RAM</span></li>
+                    <li class="flex items-center gap-1"><span class="text-green-600">✓</span><span class="text-gray-700">2 vCPU Cores</span></li>
+                    <li class="flex items-center gap-1"><span class="text-green-600">✓</span><span class="text-gray-700">1 GB | 50 MB/s IO Speed</span></li>
+                    <li class="flex items-center gap-1"><span class="text-green-600">✓</span><span class="text-gray-700">250,000 Inode Limit</span></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- Business Plan -->
+        <div class="pricing-card relative w-full divide-y divide-violet-200 rounded-2xl border-2 border-violet-500 bg-white shadow-sm">
+
+            <span class="absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2 rounded-full border border-violet-200 bg-violet-600 px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-white shadow-sm">
+                Best Deal
+            </span>
+
+            <div class="pricing-card__body p-6 sm:px-8">
+                <h2 class="text-lg font-medium text-gray-900">Reseller Business</h2>
+                <p class="mt-2 text-pretty text-gray-700">Best value for growing businesses.</p>
+
+                <p class="mt-2 sm:mt-4">
+                    <strong class="text-3xl font-bold text-gray-900 sm:text-4xl">$11.99</strong>
+                    <span class="text-sm font-medium text-gray-700">/mo</span>
+                </p>
+
+                <p class="mt-2 text-sm text-gray-500">Billed for 12 month term.</p>
+
+                <a href="#"
+                    class="fade-button pricing-card__cta mt-4 block rounded-3xl border border-violet-600 bg-violet-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-white hover:text-violet-600 sm:mt-6">
+                    Choose plan
+                </a>
+            </div>
+
+            <div class="pricing-card__details p-6 sm:px-8">
+                <p class="text-lg font-medium text-gray-900 sm:text-xl">What's included:</p>
+
+                <ul class="mt-2 space-y-2 sm:mt-4">
+                    <li class="flex items-center gap-1"><span class="text-green-600">✓</span><span class="text-gray-700">25 cPanel Accounts</span></li>
+                    <li class="flex items-center gap-1"><span class="text-green-600">✓</span><span class="text-gray-700">500 GB NVMe SSD</span></li>
+                    <li class="flex items-center gap-1"><span class="text-green-600">✓</span><span class="text-gray-700">Unlimited Bandwidth</span></li>
+                    <li class="flex items-center gap-1"><span class="text-green-600">✓</span><span class="text-gray-700">4 GB DDR5 RAM</span></li>
+                    <li class="flex items-center gap-1"><span class="text-green-600">✓</span><span class="text-gray-700">2 vCPU Cores</span></li>
+                    <li class="flex items-center gap-1"><span class="text-green-600">✓</span><span class="text-gray-700">2 GB | 100 MB/s IO Speed</span></li>
+                    <li class="flex items-center gap-1"><span class="text-green-600">✓</span><span class="text-gray-700">250,000 Inode Limit</span></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- Enterprise Plan -->
+        <div class="pricing-card w-full divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-xs">
+            <div class="pricing-card__body p-6 sm:px-8">
+                <h2 class="text-lg font-medium text-gray-900">Reseller Enterprise</h2>
+                <p class="mt-2 text-pretty text-gray-700">Ultimate power for established agencies.</p>
+
+                <p class="mt-2 sm:mt-4">
+                    <strong class="text-3xl font-bold text-gray-900 sm:text-4xl">$23.99</strong>
+                    <span class="text-sm font-medium text-gray-700">/mo</span>
+                </p>
+
+                <p class="mt-2 text-sm text-gray-500">Billed for 12 month term.</p>
+
+                <a href="#"
+                    class="fade-button pricing-card__cta mt-4 block rounded-3xl border border-violet-600 bg-white px-12 py-3 text-center text-sm font-medium text-violet-600 hover:bg-violet-600 hover:text-white sm:mt-6">
+                    Choose plan
+                </a>
+            </div>
+
+            <div class="pricing-card__details p-6 sm:px-8">
+                <p class="text-lg font-medium text-gray-900 sm:text-xl">What's included:</p>
+
+                <ul class="mt-2 space-y-2 sm:mt-4">
+                    <li class="flex items-center gap-1"><span class="text-green-600">✓</span><span class="text-gray-700">50 cPanel Accounts</span></li>
+                    <li class="flex items-center gap-1"><span class="text-green-600">✓</span><span class="text-gray-700">500 GB NVMe SSD</span></li>
+                    <li class="flex items-center gap-1"><span class="text-green-600">✓</span><span class="text-gray-700">Unlimited Bandwidth</span></li>
+                    <li class="flex items-center gap-1"><span class="text-green-600">✓</span><span class="text-gray-700">4 GB DDR5 RAM</span></li>
+                    <li class="flex items-center gap-1"><span class="text-green-600">✓</span><span class="text-gray-700">2 vCPU Cores</span></li>
+                    <li class="flex items-center gap-1"><span class="text-green-600">✓</span><span class="text-gray-700">2 GB | 100 MB/s IO Speed</span></li>
+                    <li class="flex items-center gap-1"><span class="text-green-600">✓</span><span class="text-gray-700">250,000 Inode Limit</span></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- TOP Plan -->
+        <div class="pricing-card w-full divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-xs">
+            <div class="pricing-card__body p-6 sm:px-8">
+                <h2 class="text-lg font-medium text-gray-900">Reseller TOP</h2>
+                <p class="mt-2 text-pretty text-gray-700">Maximum capacity for large-scale operations.</p>
+
+                <p class="mt-2 sm:mt-4">
+                    <strong class="text-3xl font-bold text-gray-900 sm:text-4xl">$47.99</strong>
+                    <span class="text-sm font-medium text-gray-700">/mo</span>
+                </p>
+
+                <p class="mt-2 text-sm text-gray-500">Billed for 12 month term.</p>
+
+                <a href="#"
+                    class="fade-button pricing-card__cta mt-4 block rounded-3xl border border-violet-600 bg-white px-12 py-3 text-center text-sm font-medium text-violet-600 hover:bg-violet-600 hover:text-white sm:mt-6">
+                    Choose plan
+                </a>
+            </div>
+
+            <div class="pricing-card__details p-6 sm:px-8">
+                <p class="text-lg font-medium text-gray-900 sm:text-xl">What's included:</p>
+
+                <ul class="mt-2 space-y-2 sm:mt-4">
+                    <li class="flex items-center gap-1"><span class="text-green-600">✓</span><span class="text-gray-700">100 cPanel Accounts</span></li>
+                    <li class="flex items-center gap-1"><span class="text-green-600">✓</span><span class="text-gray-700">1000 GB NVMe SSD</span></li>
+                    <li class="flex items-center gap-1"><span class="text-green-600">✓</span><span class="text-gray-700">Unlimited Bandwidth</span></li>
+                    <li class="flex items-center gap-1"><span class="text-green-600">✓</span><span class="text-gray-700">4 GB DDR5 RAM</span></li>
+                    <li class="flex items-center gap-1"><span class="text-green-600">✓</span><span class="text-gray-700">4 vCPU Cores</span></li>
+                    <li class="flex items-center gap-1"><span class="text-green-600">✓</span><span class="text-gray-700">4 GB | 100 MB/s IO Speed</span></li>
+                    <li class="flex items-center gap-1"><span class="text-green-600">✓</span><span class="text-gray-700">250,000 Inode Limit</span></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+</section>
             <section class="py-20 bg-gray-50">
     <div class="mx-auto max-w-[95%] xl:max-w-[1400px] px-4 sm:px-6">
         <!-- Heading -->
@@ -1259,5 +1115,6 @@
 </footer>
 
 <script src="src/js/cpanel.js"></script>
+<script src="src/js/global.js"></script>
 </body>
 </html>
